@@ -11,6 +11,10 @@ package Github;
  */
 public class Prueba {
     private int num;
+
+    public Prueba(int num) {
+        this.num = num;
+    }
     
     public int multiplicar(int n){
         return num*n;
