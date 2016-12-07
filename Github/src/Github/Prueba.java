@@ -19,4 +19,8 @@ public class Prueba {
     public int multiplicar(int n){
         return num*n;
     }
+
+    public int getNum() {
+        return num;
+    }
 }
